@@ -7,14 +7,11 @@ function Banner() {
         <div className="order-2 md:order-1 w-full md:w-1/2  mt-12 md:mt-25">
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-              doloremque <span className="text-pink-500">quaerat quas!</span>
+              Welcome to the official website of <span className="text-pink-500">Mind Space!</span>
             </h1>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-              quaerat odio facere. Nesciunt obcaecati fugit porro temporibus
-              rerum! Sequi doloremque earum quisquam nisi necessitatibus
-              deleniti quam recusandae expedita ad! Eum
+              Mindspace is a modern, vibrant bookstore offering a diverse collection of carefully curated titles for every reader. With a warm atmosphere and exceptional service, Mindspace inspires imagination and lifelong learning, making it the perfect destination to discover, explore, and celebrate the joy of books.
+
             </p>
             <label className="input validator">
               <svg

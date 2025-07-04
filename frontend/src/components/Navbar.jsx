@@ -45,9 +45,9 @@ function Navbar() {
   return (
     <>
       <div
-        className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 z-50 ${
+        className={`max-w-screen-2xl container mx-auto md:px-20  bg-base-100 px-4 fixed top-0 left-0 right-0 z-50 ${
           sticky
-            ? "shadow-md bg-base-300 duration-300 transition-all ease-in-out"
+            ? "shadow-md bg-base-900 duration-300 transition-all ease-in-out"
             : ""
         }`}
       >
@@ -81,7 +81,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className="text-2xl font-bold cursor-pointer">Book Store</a>
+            <a className="text-2xl font-bold cursor-pointer">Mind Space</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
