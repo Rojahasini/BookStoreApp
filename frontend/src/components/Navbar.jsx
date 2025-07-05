@@ -112,7 +112,7 @@ function Navbar() {
               {/* sun icon */}
               <svg
                 className={`h-7 w-7 fill-current ${
-                  theme === "light" ? "" : "hidden"
+                  theme === "dark" ? "" : "hidden"
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ function Navbar() {
               {/* moon icon */}
               <svg
                 className={`h-7 w-7 fill-current ${
-                  theme === "dark" ? "" : "hidden"
+                  theme === "light" ? "" : "hidden"
                 }`}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
