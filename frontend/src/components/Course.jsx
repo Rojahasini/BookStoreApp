@@ -1,7 +1,7 @@
 import React from "react";
 import Cards from "./Cards";
 import list from "../../public/list.json";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 function Course() {
   return (
     <>
@@ -12,18 +12,19 @@ function Course() {
             <span className="text-pink-500"> here!</span>
           </h1>
           <p className="mt-12">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe modi
-            atque obcaecati corporis a tempora, veritatis at ex. Accusamus
-            maiores nulla vitae repudiandae non aliquid quam voluptas molestias
-            similique beatae perspiciatis autem quisquam sed unde repellendus
-            tenetur eos, officiis odio deleniti tempora ea consequuntur.
-            Molestias.
+            Discover a world of knowledge and inspiration at our carefully
+            curated bookstore, where every book is chosen to enrich your mind
+            and bring peace to your soul. From timeless classics to fresh new
+            voices, we offer a space where you can explore, learn, and unwind
+            with confidence. Relax and browse knowing you’re in good hands —
+            your peace of mind is our priority.
           </p>
 
           <Link to="/">
-          <button className="btn  bg-pink-500 text-white px-4 py-2 mt-6  cursor-pointer rounded-md hover:bg-pink-700 duration-300">
-            Back
-          </button></Link>
+            <button className="btn  bg-pink-500 text-white px-4 py-2 mt-6  cursor-pointer rounded-md hover:bg-pink-700 duration-300">
+              Back
+            </button>
+          </Link>
         </div>
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-4 ">
           {list.map((item) => (
