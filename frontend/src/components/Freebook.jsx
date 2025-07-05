@@ -4,9 +4,46 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import list from "../../public/list.json";
 import Cards from "./Cards";
+
+/* Custom arrow components */
+function NextArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      className="absolute -right-12 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+      onClick={onClick}
+    >
+      <svg
+        className="w-10 h-10 text-black dark:text-white bg-gray-200 dark:bg-gray-800 rounded-4xl p-0.5 shadow-md hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+      >
+        <path d="M7 5l5 5-5 5V5z" />
+      </svg>
+    </div>
+  );
+}
+
+function PrevArrow(props) {
+  const { onClick } = props;
+  return (
+    <div
+      className="absolute -left-12 top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+      onClick={onClick}
+    >
+      <svg
+        className="w-10 h-10 text-black dark:text-white bg-gray-200 dark:bg-gray-800 rounded-4xl p-0.5 shadow-md hover:bg-gray-300 dark:hover:bg-gray-700 transition"
+        fill="currentColor"
+        viewBox="0 0 20 20"
+      >
+        <path d="M13 5l-5 5 5 5V5z" />
+      </svg>
+    </div>
+  );
+}
+
 function Freebook() {
   const filterData = list.filter((data) => data.category === "Free");
-  // console.log(filterData);
 
   var settings = {
     dots: true,
@@ -14,7 +51,8 @@ function Freebook() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
-    initialSlide: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -23,6 +61,8 @@ function Freebook() {
           slidesToScroll: 3,
           infinite: true,
           dots: true,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
       {
@@ -31,6 +71,8 @@ function Freebook() {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
       {
@@ -38,33 +80,30 @@ function Freebook() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
     ],
   };
-  //   console.log(filterData);
-  return (
-    <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 ">
-        <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Accusantium molestiae incidunt maxime voluptatibus?
-          </p>
-        </div>
 
-        <div>
-          <Slider {...settings}>
-            {filterData.map((item) => (
-              <div key={item.id} className="p-3">
-                <Cards item={item} />
-              </div>
-            ))}
-          </Slider>
-        </div>
+  return (
+    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
+      <div>
+        <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+        <p>Try some of our free courses here!</p>
       </div>
-    </>
+
+      <div className="relative mt-4">
+        <Slider {...settings}>
+          {filterData.map((item) => (
+            <div key={item.id} className="p-3">
+              <Cards item={item} />
+            </div>
+          ))}
+        </Slider>
+      </div>
+    </div>
   );
 }
 
