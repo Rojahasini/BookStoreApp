@@ -87,7 +87,7 @@ function Signup() {
               <div className="mt-4">
                 <span className="block mb-2">Password</span>
                 <input
-                  type="text"
+                  type="password"
                   placeholder="Enter your password"
                   className="w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("password", {
