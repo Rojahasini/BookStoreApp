@@ -4,7 +4,6 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 
 ---
 
-
 ## 🚀 Features
 
 ✅ Display a collection of free books on the home page <br>
@@ -16,14 +15,13 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 
 ---
 
-
 ## 🗓 Planned Features
 
-* Fully working search functionality
-* Form validation for user inputs
-* Payment integration for premium books
-* User reviews and ratings
-* Better error handling and notifications
+* Fully working search functionality *(UI present, not implemented yet)*
+* Form validation for user inputs *(planned)*
+* Payment integration for premium books *(planned)*
+* User reviews and ratings *(planned)*
+* Better error handling and notifications *(planned)*
 
 ---
 
@@ -41,9 +39,11 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 * Node.js
 * Express.js
 * MongoDB (Mongoose)
+* CORS (Cross-Origin Resource Sharing)
+* bcrypt (for password hashing)
+* dotenv (for environment variables)
 * JSON Web Token (JWT) for authentication
-* bcrypt for password hashing
-* dotenv for environment variables
+* axios (if used for backend API calls)
 * nodemon (for development)
 
 ---
@@ -113,40 +113,62 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 
 ## 🔗 Installation & Setup
 
-1️⃣ Clone the repository:
+1️⃣ **Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/your-repo.git
 ```
 
-2️⃣ Install dependencies for frontend:
+---
+
+2️⃣ **Set up the frontend**
 
 ```bash
-cd frontend
+cd bookstore/frontend
 npm install
 ```
 
-3️⃣ Install dependencies for backend:
+---
+
+3️⃣ **Set up the backend**
 
 ```bash
 cd ../backend
-npm install
+npm init -y
 ```
 
-4️⃣ Create a `.env` file in the `backend` folder:
+Install backend dependencies:
+
+```bash
+npm install express mongoose cors dotenv bcrypt jsonwebtoken axios
+```
+
+Install development dependencies:
+
+```bash
+npm install --save-dev nodemon
+```
+
+---
+
+4️⃣ **Create a `.env` file** in the `backend` folder with the following contents:
 
 ```env
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 ```
 
-5️⃣ Start the backend server:
+---
+
+5️⃣ **Start the backend server**
 
 ```bash
-npm run dev
+npm start
 ```
 
-6️⃣ Start the frontend:
+---
+
+6️⃣ **Start the frontend**
 
 ```bash
 cd ../frontend
@@ -161,14 +183,3 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
-
----
-
-## 📄 License
-
-This project is open-source and free to use.
-
----
