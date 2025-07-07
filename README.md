@@ -11,7 +11,8 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 ✅ Protected routes — only logged-in users can view the *Courses* section with the full book list <br>
 ✅ Modular codebase with clear frontend/backend separation <br>
 ✅ Search bar UI (functionality in progress) <br>
-✅ Tailwind CSS and DaisyUI for responsive, modern styling
+✅ Tailwind CSS and DaisyUI for responsive, modern styling <br>
+✅ Light/Dark mode toggle for theme switching
 
 ---
 
@@ -116,7 +117,7 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 1️⃣ **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
+[git clone https://github.com/your-username/your-repo.git](https://github.com/Rojahasini/BookStoreApp.git)
 ```
 
 ---
@@ -179,7 +180,32 @@ npm run dev
 
 ## 🖥️ Screenshots
 
-*(Add screenshots of your app here to showcase the design)*
+You can include:
+
+* Home page (free books listing)
+* Courses page (protected route for logged-in users)
+* Login / Signup pages
+* Navbar with auth state change
+* Dark mode view
+* Responsive view on a mobile screen
+
+
+```markdown
+![Home page](screenshots/home.png)
+![Dark mode](screenshots/darkmode.png)
+```
+
 
 ---
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — meaning it is open-source and free to use with proper attribution.
+
+---
