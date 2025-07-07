@@ -182,14 +182,14 @@ npm run dev
 
 
 ```markdown
-[![Home page](screenshots/home.png)](screenshots/home.png)  
-[![Courses page](screenshots/courses.png)](screenshots/courses.png)  
-[![Login page](screenshots/login.png)](screenshots/login.png)  
-[![Signup page](screenshots/signup.png)](screenshots/signup.png)  
-[![Navbar (logged out)](screenshots/navbar_loggedout.png)](screenshots/navbar_loggedout.png)  
-[![Navbar (logged in)](screenshots/navbar_loggedin.png)](screenshots/navbar_loggedin.png)  
-[![Responsive view](screenshots/responsive.png)](screenshots/responsive.png)  
-[![Dark mode](screenshots/darkmode.png)](screenshots/darkmode.png)  
+[![Home page](screenshots/homepage.png)](screenshots/homepage.png)
+[![Courses page](screenshots/courses.png)](screenshots/courses.png)
+[![Login page](screenshots/login.png)](screenshots/login.png)
+[![Signup page](screenshots/signup.png)](screenshots/signup.png)
+[![Navbar (logged out)](screenshots/navbar_loggedout.png)](screenshots/navbar_loggedout.png)
+[![Navbar (logged in)](screenshots/navbar_loggedin.png)](screenshots/navbar_loggedin.png)
+[![Responsive view](screenshots/responsive.png)](screenshots/responsive.png)
+[![Dark mode](screenshots/darkmode.png)](screenshots/darkmode.png)
 [![Contact page](screenshots/contact.png)](screenshots/contact.png)
 
 ```
