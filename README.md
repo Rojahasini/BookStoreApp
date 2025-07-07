@@ -4,16 +4,18 @@ A full-stack bookstore web application built with the **MERN stack** (MongoDB, E
 
 ---
 
+
 ## 🚀 Features
 
-✅ Display a collection of free books on the home page
-✅ User authentication (signup, login, logout)
-✅ Protected routes — only logged-in users can view the *Courses* section with the full book list
-✅ Modular codebase with clear frontend/backend separation
-✅ Search bar UI (functionality in progress)
-✅ Tailwind CSS and DaisyUI for responsive, modern styling
+* Display a collection of free books on the home page
+* User authentication (signup, login, logout)
+* Protected routes — only logged-in users can view the *Courses* section with the full book list
+* Modular codebase with clear frontend/backend separation
+* Search bar UI (functionality in progress)
+* Tailwind CSS and DaisyUI for responsive, modern styling
 
 ---
+
 
 ## 🗓 Planned Features
 
