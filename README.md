@@ -1,4 +1,5 @@
 # 📚 My Book Store
+[![Test](https://github.com/github/explore/blob/main/topics/react/react.png?raw=true)](https://github.com/github/explore/blob/main/topics/react/react.png?raw=true)
 
 A full-stack bookstore web application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **Vite** for a modern, high-performance development experience. The app offers a simple and secure way to explore free books, manage user accounts, and protect premium book listings for registered users.
 
