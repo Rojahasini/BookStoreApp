@@ -1,5 +1,4 @@
 # 📚 My Book Store
-[![Test](https://github.com/github/explore/blob/main/topics/react/react.png?raw=true)](https://github.com/github/explore/blob/main/topics/react/react.png?raw=true)
 
 A full-stack bookstore web application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) and **Vite** for a modern, high-performance development experience. The app offers a simple and secure way to explore free books, manage user accounts, and protect premium book listings for registered users.
 
@@ -180,27 +179,72 @@ npm run dev
 ---
 
 ## 🖥️ Screenshots
-
-
-```markdown
-[![Home page](screenshots/homepage.png)](screenshots/homepage.png)
-[![Courses page](screenshots/courses.png)](screenshots/courses.png)
-[![Login page](screenshots/login.png)](screenshots/login.png)
-[![Signup page](screenshots/signup.png)](screenshots/signup.png)
-[![Navbar (logged out)](screenshots/navbar_loggedout.png)](screenshots/navbar_loggedout.png)
-[![Navbar (logged in)](screenshots/navbar_loggedin.png)](screenshots/navbar_loggedin.png)
-[![Responsive view](screenshots/responsive.png)](screenshots/responsive.png)
-[![Dark mode](screenshots/darkmode.png)](screenshots/darkmode.png)
-[![Contact page](screenshots/contact.png)](screenshots/contact.png)
-
-```
-
+Awesome! Here's your updated **📸 Screenshots section** with headings and notes — fully polished and copy-paste ready for your `README.md`:
 
 ---
 
-## 🤝 Contributing
+## 🖥️ Screenshots
 
-Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
+### 🏠 Home Page
+
+[![Home page](screenshots/homepage.png)](screenshots/homepage.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 📚 Courses Page *(only visible to logged-in users)*
+
+[![Courses page](screenshots/courses.png)](screenshots/courses.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 🔐 Login Page
+
+[![Login page](screenshots/login.png)](screenshots/login.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 📝 Signup Page
+
+[![Signup page](screenshots/signup.png)](screenshots/signup.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 🧭 Navbar (when logged out)
+
+[![Navbar (logged out)](screenshots/navbar_loggedout.png)](screenshots/navbar_loggedout.png)
+⬆️ *Click to view full-size*
+
+---
+
+### ✅ Navbar (after logging in)
+
+[![Navbar (logged in)](screenshots/navbar_loggedin.png)](screenshots/navbar_loggedin.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 🌙 Dark Mode
+
+[![Dark mode](screenshots/darkmode.png)](screenshots/darkmode.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 📱 Responsive Design (mobile view)
+
+[![Responsive view](screenshots/responsive.png)](screenshots/responsive.png)
+⬆️ *Click to view full-size*
+
+---
+
+### 📞 Contact Page
+
+[![Contact page](screenshots/contact.png)](screenshots/contact.png)
+⬆️ *Click to view full-size*
 
 ---
 
