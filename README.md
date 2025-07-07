@@ -179,11 +179,6 @@ npm run dev
 ---
 
 ## 🖥️ Screenshots
-Awesome! Here's your updated **📸 Screenshots section** with headings and notes — fully polished and copy-paste ready for your `README.md`:
-
----
-
-## 🖥️ Screenshots
 
 ### 🏠 Home Page
 
@@ -248,8 +243,3 @@ Awesome! Here's your updated **📸 Screenshots section** with headings and note
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** — meaning it is open-source and free to use with proper attribution.
-
----
