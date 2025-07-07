@@ -180,19 +180,17 @@ npm run dev
 
 ## 🖥️ Screenshots
 
-You can include:
-
-* Home page (free books listing)
-* Courses page (protected route for logged-in users)
-* Login / Signup pages
-* Navbar with auth state change
-* Dark mode view
-* Responsive view on a mobile screen
-
 
 ```markdown
 ![Home page](screenshots/home.png)
+![Courses page (only available if logged in)](screenshots/courses.png)
+![Login page](screenshots/login.png)
+![Signup page](screenshots/signup.png)
+![Navbar without logging in](screenshots/navbar_loggedout.png)
+![Navbar after login](screenshots/navbar_loggedin.png)
+![App is responsive](screenshots/responsive.png)
 ![Dark mode](screenshots/darkmode.png)
+![Contact page](screenshots/contact.png)
 ```
 
 
